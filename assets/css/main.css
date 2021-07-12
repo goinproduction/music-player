@@ -50,8 +50,13 @@ html {
 header {
   text-align: center;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
 }
-
+.main {
+  display: flex;
+  flex-direction: column;
+}
 header h4 {
   color: var(--primary-color);
   font-size: 12px;
@@ -62,6 +67,11 @@ header h2 {
   font-size: 20px;
 }
 
+header i {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-top: 5px;
+}
 /* CD */
 .cd {
   display: flex;
@@ -130,7 +140,7 @@ header h2 {
 
 /* PLAYLIST */
 .playlist {
-  margin-top: 408px;
+  margin: 408px 0 30px 0;
   padding: 12px;
 }
 
@@ -185,4 +195,26 @@ header h2 {
   padding: 16px 8px;
   color: #999;
   font-size: 18px;
+}
+
+/* BOTTOM */
+.bottom {
+  padding: 10px 0;
+  background-color: #14103b;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 480px;
+}
+.wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.bottom i {
+  font-size: 25px;
+  color: white;
+}
+
+.bottom .active {
+  color: var(--primary-color);
 }
