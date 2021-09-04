@@ -10,5 +10,7 @@
     <li>JavaScript</li>
 </ul>
 <h1>Hình ảnh</h1>
-<img src="/assets/img/img1.PNG" alt="img">
-<img src="/assets/img/img2.PNG" alt="img">
+<div class="wrap" style="display: flex; justify-content: center;">
+    <img src="/assets/img/img1.PNG" alt="image">
+    <img src="/assets/img/img2.PNG" alt="image">
+</div>
